@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 48" width="320" height="48" fill="none">
+  <!-- Mindulle English Wordmark (MDS v0.1.0 SSOT) -->
+  <!-- Classical Atelier Serif in Cormorant Garamond style, 0.28em letter-spacing -->
+  <style>
+    :root {
+      --text-color: #161616;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text-color: #F7EEEC;
+      }
+    }
+    .wordmark {
+      fill: var(--text-color);
+      font-family: "Cormorant Garamond", Georgia, serif;
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: 0.28em;
+    }
+  </style>
+
+  <text x="160" y="32" text-anchor="middle" class="wordmark">M I N D U L L E</text>
+</svg>

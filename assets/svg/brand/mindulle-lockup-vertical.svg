@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 160" width="200" height="160" fill="none">
+  <!-- Mindulle Atelier Master Centered Vertical Lockup -->
+  <style>
+    :root {
+      --ink-primary: #161616;
+      --ink-secondary: #57534E;
+      --divider-color: #D6D3CD;
+      --gold-core: #D97706;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --ink-primary: #F7EEEC;
+        --ink-secondary: #A8A29E;
+        --divider-color: #383431;
+        --gold-core: #F59E0B;
+      }
+    }
+    .text-main { fill: var(--ink-primary); font-family: "Cormorant Garamond", Georgia, serif; font-size: 21px; font-weight: 700; letter-spacing: 0.28em; }
+    .text-sub { fill: var(--ink-secondary); font-family: "JetBrains Mono", monospace; font-size: 8.5px; font-weight: 600; letter-spacing: 0.2em; }
+    .divider { stroke: var(--divider-color); stroke-width: 1.5px; }
+  </style>
+
+  <!-- 1. Top Centered Symbol (Centered at x=100) -->
+  <g transform="translate(68, 12)">
+    <!-- 2px Axis Stem -->
+    <line x1="32" y1="28" x2="32" y2="58" stroke="var(--ink-primary)" stroke-width="2" stroke-linecap="round" />
+    <!-- Sail Arc -->
+    <path d="M 12 30 C 12 14, 28 6, 52 18" stroke="var(--ink-primary)" stroke-width="2" stroke-linecap="round" />
+    <!-- Seed Rays -->
+    <line x1="32" y1="22" x2="32" y2="12" stroke="var(--gold-core)" stroke-width="1.75" stroke-linecap="round" />
+    <line x1="32" y1="22" x2="42" y2="16" stroke="var(--gold-core)" stroke-width="1.75" stroke-linecap="round" />
+    <line x1="32" y1="22" x2="22" y2="16" stroke="var(--gold-core)" stroke-width="1.75" stroke-linecap="round" />
+    <!-- Golden Seed Core -->
+    <circle cx="32" cy="22" r="5" fill="var(--gold-core)" />
+  </g>
+
+  <!-- 2. Horizontal Divider (x=40 to x=160, y=90) -->
+  <line x1="40" y1="92" x2="160" y2="92" class="divider" />
+
+  <!-- 3. Main Title: MINDULLE -->
+  <text x="100" y="118" text-anchor="middle" class="text-main">M I N D U L L E</text>
+
+  <!-- 4. Subtitle: ATELIER & GARDEN -->
+  <text x="100" y="136" text-anchor="middle" class="text-sub">ATELIER &amp; GARDEN</text>
+</svg>

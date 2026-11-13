@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" width="200" height="48" fill="none">
+  <!-- Mindulle Korean Wordmark (MDS v0.1.0 SSOT) -->
+  <!-- Crisp Letterpress Serif proportion, optical weight aligned with English 2px stem -->
+  <style>
+    :root {
+      --text-color: #161616;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --text-color: #F7EEEC;
+      }
+    }
+    .wordmark-ko {
+      fill: var(--text-color);
+      font-family: "Maru Buri", "Noto Serif KR", "Batang", serif;
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.35em;
+    }
+  </style>
+
+  <text x="100" y="32" text-anchor="middle" class="wordmark-ko">민 들 레</text>
+</svg>
