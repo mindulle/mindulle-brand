@@ -104,8 +104,11 @@
 
 ## Chapter 04. 마스터 심볼 & 광학 락업 규격 (Anatomy & Optical Sizing)
 
-### 4.1. 마스터 심볼 조형 구조
-Mindulle 마스터 심볼은 **The True 2px Stem (중심축)**, **Asymmetric Sail Arc (바람 곡선)**, **Golden Seed Core (황금 씨앗과 3방향 방사선)**의 3대 요소로 작도됩니다.
+### 4.1. 마스터 심볼 조형 구조 (Direction A: Floating Pappus Seed)
+Mindulle 마스터 심볼은 **바람을 타고 비상하는 민들레 씨앗과 깃털 낙하산(Floating Pappus Seed)**의 형상을 바탕으로 작도됩니다:
+1. **The Floating Pappus (깃털 관모 낙하산)**: 7방향 방사형 깃털 살과 부드러운 바람 곡선(Wind Canopy Arc)으로 바람을 타고 날아오르는 생명력을 상징합니다.
+2. **The True 2px Stem (올곧은 중심 대)**: 흔들림 없는 엔지니어링의 정밀함과 중심축을 이루는 단단한 2px 실선 기둥입니다.
+3. **Botanical Achene Core (단단한 씨앗 코어)**: 하단에서 무게중심을 잡는 황금빛 물방울 모양 씨앗(Dandelion Gold)으로, 척박한 돌 틈에서도 반드시 싹을 틔우는 단단한 결실을 상징합니다.
 
 ### 4.2. 광학 크기 매트릭스 (Optical Sizing Matrix)
 축소 시 뭉개짐(Anti-aliasing blur)을 방지하기 위해 뷰포트 크기별로 독립 작도된 전용 SVG 에셋을 사용합니다.
