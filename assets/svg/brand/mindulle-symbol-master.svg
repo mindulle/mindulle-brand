@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none">
+  <!-- Mindulle Atelier Master Symbol (MDS v0.1.0 SSOT) -->
+  <!-- Coordinates: 120x120 Master Grid, 2px True Stem, Golden Core -->
+  <style>
+    :root {
+      --axis-color: #161616;
+      --arc-color: #161616;
+      --gold-core: #D97706;
+      --gold-accent: #F59E0B;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --axis-color: #F7EEEC;
+        --arc-color: #F7EEEC;
+        --gold-core: #F59E0B;
+        --gold-accent: #FBBF24;
+      }
+    }
+    .axis { stroke: var(--axis-color); }
+    .arc { stroke: var(--arc-color); }
+    .seed-core { fill: var(--gold-core); }
+    .seed-ray { stroke: var(--gold-accent); }
+  </style>
+
+  <!-- 1. The True 2px Axis Stem (Vertical pillar: x=60, y=52 to y=108) -->
+  <line x1="60" y1="52" x2="60" y2="108" stroke-width="2.5" stroke-linecap="round" class="axis" />
+
+  <!-- 2. Sail Arc: The Asymmetric Wind Curve (Winter's End Wind) -->
+  <path
+    d="M 22 56 C 22 28, 52 14, 98 34"
+    stroke-width="2.5"
+    stroke-linecap="round"
+    class="arc"
+  />
+
+  <!-- 3. Base Horizontal Anchor (Weathered Stone cleft anchor, 2px stroke) -->
+  <line x1="42" y1="108" x2="78" y2="108" stroke-width="2.5" stroke-linecap="round" class="axis" />
+
+  <!-- 4. Seed Orbit: Three Radial Life Vectors -->
+  <line x1="60" y1="42" x2="60" y2="20" stroke-width="2" stroke-linecap="round" class="seed-ray" />
+  <line x1="60" y1="42" x2="79" y2="31" stroke-width="2" stroke-linecap="round" class="seed-ray" />
+  <line x1="60" y1="42" x2="41" y2="31" stroke-width="2" stroke-linecap="round" class="seed-ray" />
+
+  <!-- 5. Golden Seed Core (Center Sphere) -->
+  <circle cx="60" cy="42" r="9" class="seed-core" />
+  <circle cx="60" cy="42" r="4.5" fill="#FFFFFF" opacity="0.4" />
+</svg>
