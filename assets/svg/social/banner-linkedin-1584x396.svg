@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 396" width="1584" height="396" fill="none">
+  <defs>
+    <radialGradient id="bGlow" cx="80%" cy="50%" r="48%">
+      <stop offset="0%" stop-color="#103026" stop-opacity="0.65" />
+      <stop offset="60%" stop-color="#05080E" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1584" height="396" fill="#05080E" />
+  <rect width="1584" height="396" fill="url(#bGlow)" />
+  <rect x="24" y="24" width="1536" height="348" stroke="rgba(255,255,255,0.12)" stroke-width="1" />
+  <line x1="126" y1="340" x2="1458" y2="340" stroke="rgba(255,209,102,0.22)" stroke-width="1" />
+  <circle cx="1267" cy="198" r="158" stroke="rgba(255,209,102,0.22)" stroke-width="1" stroke-dasharray="4 10" />
+  <circle cx="1267" cy="198" r="118" stroke="rgba(248,250,252,0.14)" stroke-width="1" />
+  <g transform="translate(1159, 90) scale(1.8)">
+    
+  <circle cx="60" cy="34" r="28" fill="rgba(255,209,102,0.12)" />
+  <line x1="60" y1="52" x2="60" y2="12" stroke="#F7EEEC" stroke-width="2.2" stroke-linecap="round" />
+  <line x1="60" y1="52" x2="39" y2="18" stroke="#F7EEEC" stroke-width="2" stroke-linecap="round" />
+  <line x1="60" y1="52" x2="81" y2="18" stroke="#F7EEEC" stroke-width="2" stroke-linecap="round" />
+  <line x1="60" y1="52" x2="22" y2="31" stroke="#F7EEEC" stroke-width="2" stroke-linecap="round" />
+  <line x1="60" y1="52" x2="98" y2="31" stroke="#F7EEEC" stroke-width="2" stroke-linecap="round" />
+  <line x1="60" y1="52" x2="13" y2="48" stroke="#F7EEEC" stroke-width="1.8" stroke-linecap="round" />
+  <line x1="60" y1="52" x2="107" y2="48" stroke="#F7EEEC" stroke-width="1.8" stroke-linecap="round" />
+  <path d="M 60 22 L 56 18 M 60 28 L 64 24 M 60 34 L 56 30 M 60 40 L 64 36 M 48 32 L 44 28 M 40 24 L 36 20 M 72 32 L 76 28 M 80 24 L 84 20" stroke="#F7EEEC" stroke-width="1.25" stroke-linecap="round" opacity="0.6" />
+  <path d="M 13 48 Q 60 8 107 48" stroke="#F7EEEC" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="2.5 3.5" opacity="0.55" />
+  <circle cx="60" cy="52" r="3.5" fill="#FFD166" />
+  <line x1="60" y1="52" x2="60" y2="87" stroke="#F7EEEC" stroke-width="2.5" stroke-linecap="round" />
+  <path d="M 60 86 C 53.5 93, 53.5 106, 60 112 C 66.5 106, 66.5 93, 60 86 Z" fill="#FFD166" />
+  <circle cx="60" cy="98" r="3" fill="#FFFFFF" opacity="0.35" />
+  <path d="M 46 112 A 16 16 0 0 0 74 112" stroke="#F7EEEC" stroke-width="1.25" stroke-linecap="round" stroke-dasharray="2 3" opacity="0.4" />
+
+  </g>
+  <text x="126" y="144" fill="#FFD166" font-family="JetBrains Mono, ui-monospace, monospace" font-size="14" letter-spacing="4">SOLO SOFTWARE &amp; DESIGN STUDIO</text>
+  <text x="126" y="198" fill="#F8FAFC" font-family="Cormorant Garamond, Georgia, serif" font-size="48" font-weight="600" letter-spacing="3">MINDULLE ATELIER</text>
+  <text x="126" y="234" fill="rgba(248,250,252,0.72)" font-family="JetBrains Mono, ui-monospace, monospace" font-size="18" letter-spacing="2">THREE.JS / WEBGL · W3C DESIGN TOKENS · NEXT.JS</text>
+  <text x="126" y="362" fill="rgba(255,209,102,0.75)" font-family="JetBrains Mono, ui-monospace, monospace" font-size="14" letter-spacing="2">portfolio.sonagi.space</text>
+</svg>
