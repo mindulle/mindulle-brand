@@ -1,0 +1,15 @@
+1
+00:00:00,500 --> 00:00:14,500
+Hi, I'm Hyeseong Park of Mindulle Atelier—a solo software and design studio building Three.js WebGL experiences and W3C design systems.
+
+2
+00:00:15,500 --> 00:00:29,500
+First, my 4-act 3D WebGL portfolio runs 10,000 GPGPU particles under 35 draw calls, with a 1px monoline SVG fallback when WebGL is restricted.
+
+3
+00:00:30,500 --> 00:00:44,500
+Second, Mindulle Design System unifies 22 W3C DTCG tokens across Figma Variables, CSS custom properties, and React UI components.
+
+4
+00:00:45,500 --> 00:00:59,500
+I work async-first with clear specs, clean PRs, and weekly milestones. Reach out anytime at craftsman@sonagi.space.
