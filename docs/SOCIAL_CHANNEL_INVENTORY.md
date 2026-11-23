@@ -20,6 +20,7 @@
 | **X (Twitter)** | 등록 예정 | 추천: `@mindulle_studio` (예비 `@sonagi_space`) | 3D·드로잉 작업 과정 공유 |
 
 > **네이밍 원칙:** 영문 핸들은 **`mindulle`**(우선) → **`mindulle_studio`** → **`sonagi_space`** 순으로 선점합니다.
+> **콘테스트 플랫폼**(라우드소싱·99designs)은 성격이 달라 §4에서 따로 관리합니다. 1차 수주 채널입니다.
 
 ---
 
@@ -47,3 +48,41 @@
 | `assets/svg/social/banner-behance-3200x410.svg` | `3200×410` | Behance 프로필 배너 |
 | `assets/svg/social/banner-dribbble-1600x1200.svg` | `1600×1200` | Dribbble 4:3 커버/샷 |
 | `assets/svg/skills/skill-*.svg` (6종) | `120×120` | Three.js/WebGL · Design Systems · Next.js/React · Figma Tokens · GLSL Shaders · SVG Editorial |
+
+
+---
+
+## 4. 콘테스트 플랫폼 (1차 수주 채널)
+
+패키지 우선 전략(WORK-29)으로 국내는 라우드소싱, 해외는 99designs를 쓴다.
+**계정 운영(가입·심사·지원서)은 WORK 트랙, 핸들·링크·프로필 그래픽은 이 문서(BRAND)가 정본**이다.
+
+| 플랫폼 | 상태 | 핸들 / URL | 용도 | 관리 경계 |
+| --- | --- | --- | --- | --- |
+| **라우드소싱** | 보유 · 활성 (2026-11-20 LOUD 제출) | 확인 필요 | 국내 패키지·로고 공모전 수주 | 계정·제출 이력: WORK-25 / 링크·자산: BRAND-12 |
+| **99designs** | 미보유 (확인 필요) | — | 해외 웹·북커버·인쇄물 | 프로필 문안: WORK-15·16 / 링크·자산: BRAND-12 |
+
+### 4.1 자산 규격 (조사 필요)
+
+플랫폼별 업로드 규격은 아직 실측하지 않았다. 확인되는 대로 채운다.
+
+| 플랫폼 | 자산 | 규격 | 상태 |
+| --- | --- | --- | --- |
+| 라우드소싱 | 프로필 이미지 | 미확인 | 조사 필요 |
+| 라우드소싱 | 참여작 업로드 이미지 | 미확인 | 조사 필요 |
+| 99designs | 프로필 아바타 | 미확인 | 조사 필요 |
+| 99designs | 프로필 커버 | 미확인 | 조사 필요 |
+| 99designs | 참여작 제출 이미지 | 미확인 | 조사 필요 |
+
+### 4.2 기존 자산 재사용
+
+콘테스트 프로필에는 아래 자산을 우선 재사용하고, 규격이 다르면 크롭한다.
+
+- 아바타: `assets/svg/social/avatar-dark-1024.svg` (정방)
+- 가로 커버: `assets/svg/social/banner-linkedin-1584x396.svg` (1584×396)
+- 참여작 썸네일: `press mockup`이 만든 목업 PNG (패키지) · `press lockup` 시트 (브랜딩)
+
+### 4.3 하지 않는 것
+
+- 플랫폼 계정 생성·심사 대응·지원서 제출은 이 문서 범위가 아니다 (WORK)
+- 99designs 로고·일러스트 카테고리는 AI 금지라 참여하지 않는다 (WORK-29 D16)
