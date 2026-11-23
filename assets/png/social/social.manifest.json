@@ -1,94 +1,13 @@
 {
     "presets": [
         {
-            "file": "avatar-dark-1024-loudsourcing-132.png",
-            "size": [
-                132,
-                132
-            ],
-            "bytes": 9394,
-            "sha256": "471d816913c3f078ca6079200b974a004f824e9800baf2b384a49791ae819404"
-        },
-        {
-            "file": "avatar-dark-1024-99designs-500.png",
-            "size": [
-                500,
-                500
-            ],
-            "bytes": 74811,
-            "sha256": "590fdef1d0895d0a295079e591177bbeee0ee2beda3124bcd079a8de22026231"
-        },
-        {
-            "file": "avatar-light-1024-loudsourcing-132.png",
-            "size": [
-                132,
-                132
-            ],
-            "bytes": 4661,
-            "sha256": "c7a23df66c951aa051caadce17509edeaef1c7c66c6f68b13b5097c6eb25bb35"
-        },
-        {
-            "file": "avatar-light-1024-99designs-500.png",
-            "size": [
-                500,
-                500
-            ],
-            "bytes": 21100,
-            "sha256": "31f1a05126bfc2ca56e9aac6f0f7d5795f583a5c18b4f9e95a328526c96a8581"
-        },
-        {
-            "file": "99designs-2480x400.png",
-            "size": [
-                2480,
-                400
-            ],
-            "bytes": 115867,
-            "sha256": "bb2ba1a85212834305cde5e47527659826ab2cd1fc3e0323b8c2626ad91fa4c3"
-        },
-        {
-            "file": "behance-3200x410.png",
-            "size": [
-                3200,
-                410
-            ],
-            "bytes": 136382,
-            "sha256": "f08bbb30b4a19844e2ca9ebd5516a8f78271ff85b9e1ef39f7c3484d29d003c3"
-        },
-        {
-            "file": "dribbble-1600x1200.png",
-            "size": [
-                1600,
-                1200
-            ],
-            "bytes": 236057,
-            "sha256": "ee474482fd07527674aa6b7c41a1019621741e12264c86b7fc9492e6eebf1436"
-        },
-        {
-            "file": "linkedin-1584x396.png",
-            "size": [
-                1584,
-                396
-            ],
-            "bytes": 97385,
-            "sha256": "ae89ea0cc5534f0fb77d707be0f9cbe958ad780dc4bf06216893334a663378da"
-        },
-        {
-            "file": "loudsourcing-1920x240.png",
+            "file": "loudsourcing-1920x240-light.png",
             "size": [
                 1920,
                 240
             ],
-            "bytes": 67056,
-            "sha256": "ada562e7ffcb3dade4120482ca79b9cafe421345df73c5ac9d9191b95dc3fe93"
-        },
-        {
-            "file": "x-1500x500.png",
-            "size": [
-                1500,
-                500
-            ],
-            "bytes": 114400,
-            "sha256": "b620284fbce5fa7ebaf42b7eda6d93ba2ce7b1179901ce6ab5ef49b4f51845b5"
+            "bytes": 65972,
+            "sha256": "97702f7170fdeacc3b80ace5778c05c7b6864e214412d8d7505e30a5c35edb1c"
         }
     ]
 }

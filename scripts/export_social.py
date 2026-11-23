@@ -41,6 +41,7 @@ PRESETS = {
     "banner-x": [("x-1500x500", 1500, 500, "cover", "#111111")],
     "banner-99designs": [("99designs-2480x400", 2480, 400, "cover", "#05080E")],
     "banner-loudsourcing": [("loudsourcing-1920x240", 1920, 240, "cover", "#05080E")],
+    "banner-loudsourcing-1920x240-light": [("loudsourcing-1920x240-light", 1920, 240, "cover", "#FBF9F5")],
 }
 
 ENTRY_PRESETS = {
@@ -142,7 +143,9 @@ def main():
         if not svgs:
             raise SystemExit(f"SVG가 없습니다: {SOCIAL}")
         for svg in svgs:
-            key = next((k for k in PRESETS if svg.name.startswith(k)), None)
+            # 접두사가 겹치므로(…-light) 가장 긴 키를 고른다
+            matches = [k for k in PRESETS if svg.name.startswith(k)]
+            key = max(matches, key=len) if matches else None
             if not key:
                 continue
             text = svg.read_text()
