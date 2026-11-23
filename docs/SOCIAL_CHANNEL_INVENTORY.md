@@ -87,7 +87,7 @@
 
 | 플랫폼 | 상태 | 핸들 / URL | 용도 | 관리 경계 |
 | --- | --- | --- | --- | --- |
-| **라우드소싱** | 보유 · 활성 (2026-11-20 LOUD 제출) | `https://www.loud.kr/m/magicwand` (핸들 `magicwand`) | 국내 패키지·로고 공모전 수주 | 계정·제출 이력: WORK-25 / 링크·자산: BRAND-12 |
+| **라우드소싱** | 보유 · 활성 (2026-11-20 LOUD 제출) | `https://www.loud.kr/m/mindullestudio` (핸들 `mindullestudio` · 닉네임 `민들레 스튜디오`) | 국내 패키지·로고 공모전 수주 | 계정·제출 이력: WORK-25 / 링크·자산: BRAND-12 |
 | **99designs** | 미보유 (확인 필요) | — | 해외 웹·북커버·인쇄물 | 프로필 문안: WORK-15·16 / 링크·자산: BRAND-12 |
 
 ### 4.1 자산 규격 (실측)
@@ -95,6 +95,7 @@
 | 플랫폼 | 자산 | 규격 | 비고 |
 | --- | --- | --- | --- |
 | 라우드소싱 | 프로필 이미지 | **132 × 132 px** | 2026-11-23 확인: 이미 등록돼 있음(교체는 선택) |
+| 라우드소싱 | 프로필 배경 | **1920 × 240 px** (권장) | `loudsourcing-1920x240.png` |
 | 라우드소싱 | 참여작 썸네일 | **600 × 600 px** | 작품 요약 |
 | 라우드소싱 | 참여작 상세 이미지 | **가로 1024 px · 세로 자유** | RGB 저장(CMYK 원본과 별도) |
 | 라우드소싱 | 업로드 제한 | **5MB · 최대 10장** | WebP 지원 |
@@ -129,6 +130,7 @@ python3 scripts/export_social.py --entry path/to/mockup.png  # 참여작 600²·
 | `avatar-dark-1024-loudsourcing-132.png` | 132² | 라우드소싱 프로필 |
 | `avatar-dark-1024-99designs-500.png` | 500² | 99designs 아바타(원형 안전) |
 | `99designs-2480x400.png` | 2480×400 | 99designs 커버 |
+| `loudsourcing-1920x240.png` | 1920×240 | 라우드소싱 배경 |
 | `linkedin-1584x396.png` · `x-1500x500.png` · `behance-3200x410.png` · `dribbble-1600x1200.png` | 각 규격 | SNS 배너 |
 | `<mockup>-thumbnail-600.png` | 600² | 라우드소싱 썸네일 |
 | `<mockup>-detail-1024.png` | 1024 가로 | 라우드소싱 상세 |

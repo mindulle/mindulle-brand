@@ -40,6 +40,7 @@ PRESETS = {
     "banner-linkedin": [("linkedin-1584x396", 1584, 396, "cover", "#FBF9F5")],
     "banner-x": [("x-1500x500", 1500, 500, "cover", "#111111")],
     "banner-99designs": [("99designs-2480x400", 2480, 400, "cover", "#05080E")],
+    "banner-loudsourcing": [("loudsourcing-1920x240", 1920, 240, "cover", "#05080E")],
 }
 
 ENTRY_PRESETS = {
