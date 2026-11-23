@@ -118,6 +118,8 @@ Google 로그인으로 계정은 즉시 생기지만, **콘테스트 참여는 �
 | 2. 지급 계좌 | **Hyperwallet(PayPal 계열) 전용.** 거주 국가 확인 후 Hyperwallet 가입 필수. 한국(`South Korea`) 지원 확인 | 본인·계좌 정보 |
 | 3. 큐레이션 심사 | Designer Curation 팀이 품질 기준으로 지원서 평가 | — |
 
+- **진행 상태(2026-11-23)**: ① The essentials 완료(Hyperwallet 지급계좌 연결) ② creative journey 완료 ③ Code of Conduct 완료 · **④ Showcase your work(작품 6~12점) 남음** ⑤ Review 대기
+- 작품 샘플 규격(지원서): **GIF·PNG·JPEG, 10MB 이하**, 항목마다 `Design title` + `Description`. 지원서 전용 비공개
 - **지원서는 단계별 자동 저장**된다. 한 번에 끝낼 필요는 없다
 
 **지급 계좌 실측 (2026-11-23, Hyperwallet 가입 완료)**
