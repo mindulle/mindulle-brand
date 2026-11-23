@@ -93,7 +93,7 @@
 | 플랫폼 | 상태 | 핸들 / URL | 용도 | 관리 경계 |
 | --- | --- | --- | --- | --- |
 | **라우드소싱** | 보유 · 활성 (2026-11-20 LOUD 제출) | `https://www.loud.kr/m/mindullestudio` (핸들 `mindullestudio` · 닉네임 `민들레 스튜디오`) | 국내 패키지·로고 공모전 수주 | 계정·제출 이력: WORK-25 / 링크·자산: BRAND-12 |
-| **99designs** | 미보유 (확인 필요) | — | 해외 웹·북커버·인쇄물 | 프로필 문안: WORK-15·16 / 링크·자산: BRAND-12 |
+| **99designs** | 계정 생성 (2026-11-23 Google 로그인) · **디자이너 지원서 미완료** | `https://99designs.com/account/profile` (Display name `PixelRay` → `Mindulle Studio` 예정, ID `12188801`) | 해외 웹·북커버·인쇄물 | 지원서·지급계좌: WORK / 링크·자산: BRAND-12 |
 
 ### 4.1 자산 규격 (실측)
 
@@ -107,6 +107,35 @@
 | 99designs | 아바타 | **500 × 500 px** | 원형 크롭 표시 |
 | 99designs | 프로필 커버 | **2480 × 400 px** (최소 1240×200) | 데스크톱 1240×200 · 모바일 540×200 |
 | 99designs | 참여작·포트폴리오 | **960×960 ~ 2040×8160 px**, RGB, PNG/JPG/GIF, **8MB** | 정사각 최소 |
+
+### 4.1.1 99designs 진입 장벽 (2026-11-23 확인)
+
+Google 로그인으로 계정은 즉시 생기지만, **콘테스트 참여는 지원서 심사를 통과해야 가능**하다. 순서는 다음과 같다.
+
+| 단계 | 내용 | 사람 필요 |
+| --- | --- | --- |
+| 1. 디자이너 지원서 | `/account/application` — ① The essentials(이름·아바타·시간대·언어) ② creative journey ③ Code of Conduct ④ **작품 6~12점** ⑤ 검토 | 아바타·작품 업로드 |
+| 2. 지급 계좌 | **Hyperwallet(PayPal 계열) 전용.** 거주 국가 확인 후 Hyperwallet 가입 필수. 한국(`South Korea`) 지원 확인 | 본인·계좌 정보 |
+| 3. 큐레이션 심사 | Designer Curation 팀이 품질 기준으로 지원서 평가 | — |
+
+- **지원서는 단계별 자동 저장**된다. 한 번에 끝낼 필요는 없다
+- 아바타·작품 업로드는 브라우저 자동화로 밀어넣으면 페이지가 멈춘다(React 크롭 UI). **사람이 업로드**해야 한다
+- 텍스트 필드도 React 제어라 DOM 주입이 저장되지 않는다. 붙여넣기로 입력한다
+
+**프로필 값 (확정)**
+
+| 항목 | 값 |
+| --- | --- |
+| Display name (2~20자) | `Mindulle Studio` (15) |
+| Biography (500자) | 아래 영문 367자 |
+| Custom URL | `mindullestudio` |
+| Available for invitations | 이미 켜짐 |
+
+```
+Mindulle Studio is a one-person design studio for web interfaces and packaging. I design responsive landing and product pages, and labels, pouches and cartons, then hand over files print shops can use as-is: 3mm bleed, CMYK, crop marks and barcode quiet zone.
+
+I fix the grid, margins and colour before drawing, so nothing has to be redrawn the day before a deadline.
+```
 
 - 라우드소싱은 **썸네일(600²)과 상세(1024 가로)를 따로** 올린다. 상세는 세로 자유라 길게 만들 수 있다
 - 라우드소싱 제출물은 **RGB**로 저장한다. 인쇄용 CMYK 원본과 별개 파일
