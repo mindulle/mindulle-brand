@@ -1,0 +1,28 @@
+{
+    "presets": [
+        {
+            "file": "sonagi-mockup@2x-thumbnail-600.png",
+            "size": [
+                600,
+                600
+            ],
+            "bytes": 38607
+        },
+        {
+            "file": "sonagi-mockup@2x-detail-1024.png",
+            "size": [
+                1024,
+                641
+            ],
+            "bytes": 81576
+        },
+        {
+            "file": "sonagi-mockup@2x-99designs-1200.png",
+            "size": [
+                1200,
+                751
+            ],
+            "bytes": 116423
+        }
+    ]
+}

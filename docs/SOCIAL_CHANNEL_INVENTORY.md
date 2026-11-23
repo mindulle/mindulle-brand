@@ -47,6 +47,7 @@
 | `assets/svg/social/banner-x-1500x500.svg` | `1500×500` | X(Twitter) 헤더 배너 |
 | `assets/svg/social/banner-behance-3200x410.svg` | `3200×410` | Behance 프로필 배너 |
 | `assets/svg/social/banner-dribbble-1600x1200.svg` | `1600×1200` | Dribbble 4:3 커버/샷 |
+| `assets/svg/social/banner-99designs-2480x400.svg` | `2480×400` | 99designs 프로필 커버 |
 | `assets/svg/skills/skill-*.svg` (6종) | `120×120` | Three.js/WebGL · Design Systems · Next.js/React · Figma Tokens · GLSL Shaders · SVG Editorial |
 
 
@@ -86,6 +87,28 @@
 - 가로 커버: `assets/svg/social/banner-linkedin-1584x396.svg` → 99designs 2480×400은 별도 제작 필요
 - 참여작 썸네일 600²: `press mockup` PNG를 1:1 크롭
 - 참여작 상세 1024 가로: `press mockup` PNG를 1024 폭으로 리사이즈(세로 자유)
+
+### 4.2.1 PNG 내보내기
+
+```bash
+python3 scripts/export_social.py --all                       # 아바타·배너 세트
+python3 scripts/export_social.py --entry path/to/mockup.png  # 참여작 600²·1024·1200
+```
+
+산출물은 `assets/png/social/`에 쌓인다. 규격은 아래와 같다.
+
+| 파일 | 크기 | 용도 |
+| --- | --- | --- |
+| `avatar-dark-1024-loudsourcing-132.png` | 132² | 라우드소싱 프로필 |
+| `avatar-dark-1024-99designs-500.png` | 500² | 99designs 아바타(원형 안전) |
+| `99designs-2480x400.png` | 2480×400 | 99designs 커버 |
+| `linkedin-1584x396.png` · `x-1500x500.png` · `behance-3200x410.png` · `dribbble-1600x1200.png` | 각 규격 | SNS 배너 |
+| `<mockup>-thumbnail-600.png` | 600² | 라우드소싱 썸네일 |
+| `<mockup>-detail-1024.png` | 1024 가로 | 라우드소싱 상세 |
+| `<mockup>-99designs-1200.png` | 1200 가로 | 99designs 참여작 |
+
+- 참여작 썸네일은 **잘라내지 않고 여백을 둔다**(contain). 잘라내면 브랜드명이 사라진다
+- SVG 렌더는 chromium을 쓰며, snap 제약 때문에 저장소 안 `.tmp-social/`에 임시 파일을 만든다
 
 ### 4.3 하지 않는 것
 
