@@ -48,9 +48,9 @@
     <!-- Sail Curve -->
     <path d="M 6 18 C 6 8, 14 3, 26 10" stroke-width="2" stroke-linecap="round" stroke="var(--ink-primary)" />
     <!-- Seed Rays -->
-    <line x1="16" y1="12" x2="16" y2="6" stroke-width="1.75" stroke-linecap="round" class="gold-stroke" />
-    <line x1="16" y1="12" x2="22" y2="8" stroke-width="1.75" stroke-linecap="round" class="gold-stroke" />
-    <line x1="16" y1="12" x2="10" y2="8" stroke-width="1.75" stroke-linecap="round" class="gold-stroke" />
+    <line x1="16" y1="12" x2="16" y2="6" stroke-width="2" stroke-linecap="round" class="gold-stroke" />
+    <line x1="16" y1="12" x2="22" y2="8" stroke-width="2" stroke-linecap="round" class="gold-stroke" />
+    <line x1="16" y1="12" x2="10" y2="8" stroke-width="2" stroke-linecap="round" class="gold-stroke" />
     <!-- Seed Core -->
     <circle cx="16" cy="12" r="3.5" class="gold-fill" />
   </g>
