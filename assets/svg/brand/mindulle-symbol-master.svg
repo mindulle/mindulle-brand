@@ -30,7 +30,7 @@
 
   <!-- 2. Parachute Ribs (7 Botanical Plumes) -->
   <!-- Center vertical rib -->
-  <line x1="60" y1="52" x2="60" y2="12" stroke-width="2.2" stroke-linecap="round" class="plume" />
+  <line x1="60" y1="52" x2="60" y2="12" stroke-width="2" stroke-linecap="round" class="plume" />
   <!-- Left/Right inner pair -->
   <line x1="60" y1="52" x2="39" y2="18" stroke-width="2" stroke-linecap="round" class="plume" />
   <line x1="60" y1="52" x2="81" y2="18" stroke-width="2" stroke-linecap="round" class="plume" />
@@ -38,8 +38,8 @@
   <line x1="60" y1="52" x2="22" y2="31" stroke-width="2" stroke-linecap="round" class="plume" />
   <line x1="60" y1="52" x2="98" y2="31" stroke-width="2" stroke-linecap="round" class="plume" />
   <!-- Left/Right wide pair -->
-  <line x1="60" y1="52" x2="13" y2="48" stroke-width="1.8" stroke-linecap="round" class="plume" />
-  <line x1="60" y1="52" x2="107" y2="48" stroke-width="1.8" stroke-linecap="round" class="plume" />
+  <line x1="60" y1="52" x2="13" y2="48" stroke-width="2" stroke-linecap="round" class="plume" />
+  <line x1="60" y1="52" x2="107" y2="48" stroke-width="2" stroke-linecap="round" class="plume" />
 
   <!-- 3. Fine Botanical Feather Bristles (1도 에칭 잔털) -->
   <path
@@ -66,7 +66,7 @@
   <circle cx="60" cy="52" r="3.5" class="seed-accent" />
 
   <!-- 6. Central Stalk: The True 2px Stem (x=60, y=52 to y=87) -->
-  <line x1="60" y1="52" x2="60" y2="87" stroke-width="2.5" stroke-linecap="round" class="axis" />
+  <line x1="60" y1="52" x2="60" y2="87" stroke-width="2" stroke-linecap="round" class="axis" />
 
   <!-- 7. Botanical Dandelion Achene (Seed payload at bottom) -->
   <path
