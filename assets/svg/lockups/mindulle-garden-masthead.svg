@@ -42,7 +42,7 @@
   <line x1="32" y1="46" x2="768" y2="46" class="hairline-thin" />
 
   <!-- 4. Centerpiece Symbol Mark (Scaled 32px) -->
-  <g transform="translate(180, 62)">
+  <g transform="translate(48, 66)">
     <!-- 2px Axis Stem -->
     <line x1="16" y1="16" x2="16" y2="44" stroke-width="2" stroke-linecap="round" stroke="var(--ink-primary)" />
     <!-- Sail Curve -->
@@ -56,7 +56,7 @@
   </g>
 
   <!-- 5. Main Title: MINDULLE GARDEN (The Broadsheet Masthead) -->
-  <text x="410" y="96" text-anchor="middle" font-size="38" font-weight="700" letter-spacing="0.28em" class="ink-text">MINDULLE GARDEN</text>
+  <text x="424" y="96" text-anchor="middle" font-size="34" font-weight="700" letter-spacing="0.24em" class="ink-text">MINDULLE GARDEN</text>
 
   <!-- 6. Korean Subtitle -->
   <text x="410" y="122" text-anchor="middle" font-size="13" font-weight="600" letter-spacing="0.3em" class="ink-sub">민 들 레 정 원</text>
